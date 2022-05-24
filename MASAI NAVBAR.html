@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MASAI NAVBAR</title>
+    <style>
+        div{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            border: 1px solid;
+        }
+        div>div+div{
+            display: flex;
+            justify-content: space-evenly;
+            width: 60%;            
+        }
+        div>div+div>div{
+           font-size: x-small;
+           margin: 10px;
+        }
+        div>div+div>img{
+            width: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div>
+            <img src="https://www.masaischool.com/img/navbar/logo.svg" alt="masai-logo">
+        </div>
+        <div>
+            <select>
+                <option value="">COURSES</option>
+                <option value="">FSD</option>
+                <option value="">ANDROID</option>
+            </select>
+            <div>FEE & ISA</div>
+            <div>ABOUT US</div>
+            <div>HIRE FROM US</div>
+            <div>FAQ</div>
+            <div>EVENTS</div>
+            <div>
+                <p>REFFER & EARN</p>
+                <img src="https://www.masaischool.com/img/referral/hand.png">
+            </div>
+            <button>LOGIN</button>
+        </div>
+    </div>
+</body>
+</html>
